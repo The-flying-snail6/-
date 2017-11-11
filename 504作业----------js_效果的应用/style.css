@@ -1,0 +1,226 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+}
+ul,li{
+	list-style:none;
+}
+.clear{
+	clear:both;
+}
+a{
+	color:#fff;
+	text-decoration:none;/*取消下划线*/
+}
+
+#header{
+	width:100%;
+	height:70px;
+	background-color:#162129;
+}
+#header .logo{
+	background:url(images/1.jpg) no-repeat;
+	width:245px;
+	height:40px;
+	float:left;
+	margin-top:15px;
+	margin-left:50px;
+}
+header ul{
+	list-style:none;
+	margin-top:20px;
+	float:left;
+}
+#header ul li{
+	float:left;
+	color:#fff;
+	font-size:24px;
+	margin-left:70px;
+	text-align:center;
+	width:100px;
+}
+#header ul .il{
+	color:#ff7200;
+	border-bottom:2px solid #ff7200;
+}
+#header p{
+	float:left;
+	background-color:#ff7200;
+	border-radius:5px;border:0;
+	width:130px;
+	height:35px;
+	font-size:24px;
+	letter-spacing:5px;color:#fff;
+	text-align:center;
+	line-height:35px;
+	margin:20px 0 0 60px;
+}
+#nav{
+	width:1520px;
+	overflow:hidden;
+	height:780px;
+}
+#wed{
+	list-style:none;
+	width:4560px;
+	left:0;
+	position:relative;
+	transition:all 0.8s ease;
+}
+#wed li{
+	float:left;
+}
+#aside{
+	margin-top:20px;
+	position:relative;
+}
+#aside h3{
+	width:600px;
+	margin:0 auto;
+	font-size:24px;
+	text-align:center;
+	height:45px;
+	border-bottom:1px solid #ff7200;
+}
+#aside hr{
+	width:70px;
+	border:3px solid #ff7200;
+	position:absolute;
+	top:42px;
+	left:710px;
+}
+#aside p{
+	width:1200px;
+	margin:50px auto; 
+}
+#ment{
+	width:1200px;
+	margin:0 auto;	
+}
+
+#tab li{
+	display:none;
+}
+#tab .tive2{display:block;}
+
+#content li{
+	float:left;
+}
+#content li:nth-child(2){
+	margin-left:15px;
+}
+#content li:nth-child(3){
+	margin-left:15px;
+}
+#sectin{
+	margin:50px auto;
+	position:relative;	
+}
+#sectin ul li{
+	float:left;
+}
+#sectin .il2{
+	position:absolute;
+	top:200px;
+	left:160px;
+}
+#sectin .il3{
+	position:absolute;
+	top:200px;
+	left:610px;
+}
+#sectin .il4{
+	position:absolute;
+	top:200px;
+	left:1060px;
+}
+
+#contiu{
+	margin-top:20px;
+	position:relative;
+}
+#contiu h3{
+	width:600px;
+	margin:0 auto;
+	font-size:24px;
+	text-align:center;
+	height:45px;
+	border-bottom:1px solid #ff7200;
+}
+#contiu hr{
+	width:70px;
+	border:3px solid #ff7200;
+	position:absolute;
+	top:42px;
+	left:710px;
+}
+#contiu p{
+	width:1200px;
+	margin:20px auto; 
+}
+#contiu ul{
+	width:1200px;
+	margin:0 auto;
+}
+#contiu ul li{
+	float:left;
+	margin-left:10px;	
+}
+#contiu ul li img{
+	width:232px;
+}
+#contiu ul li:first-child{
+	margin-left:0;
+}
+#contiu ul li:nth-child(6){
+	margin-left:0;
+}
+
+#footer{
+	width:100%;
+	height:300px;
+	background-color:#17202a;
+	color:#fff;
+	margin:100px 0 0 0;
+}
+
+#footer .ned{
+	width:1200px;
+	margin:0 auto;
+	padding:50px;
+}
+#footer .ned .den{
+	width:1000px;
+	margin:0 auto;
+	overflow:hidden;
+	padding:0;
+}
+#footer .ned .den .weed{
+	margin-left:60px;
+	float:left;
+}
+#footer .ned .den .weed h3{
+	font-weight:normal;
+}
+#footer .ned .den .weed:nth-child(5) li:nth-child(2){
+	color:#F60;
+	font-size:30px;
+}
+#footer .ned .den .weed:first-child{
+	margin-left:0;
+}
+#footer .ned .den .weed li{
+	margin:10px 0 0 0;
+}
+#footer .ned .den .tupian{
+	 float:right;
+	 margin-top:13px;
+}
+#footer .ned .weini{
+	width:700px;
+	margin:30px auto;
+	font-size:12px;
+}
